@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mackbook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/style.css">
+
+ <!-- css link  -->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="row g-2">
+           <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+               <img width="300px" class="img-fluid ms-5" src="mac-book-pro/images/mac.png" alt="">
+           </div>
+           <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+               <h1>Customize Your Blue 24-Inch iMac with Apple M1 chip</h1>
+               <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine. Get credit toward a new Mac when you trade in your eligible computer.</p>
+               <h5>Memory</h5>
+               <button id="memory1" class="cost-btn mt-4 hover-system rounded-3">8GB unifield memory</button>
+               <button id="memory2" class="cost-btn mt-4 hover-system rounded-3">16GB unifield memory</button>
+               <h5>Storage</h5>
+               <button id="storage1" class="cost-btn mt-4 hover-system rounded-3">256GB SSD storage</button>
+               <button id="storage2" class="cost-btn mt-4 hover-system rounded-3">512GB SSD storage</button>
+               <button id="storage3" class="cost-btn mt-4 hover-system rounded-3">1TB SSD storage</button>
+              <h5>Choose yoour delivery option</h5>
+              <button id="delivery1" class="cost-btn mt-4 hover-system rounded-3">friday,Aug 25 FREE prime Delivery</button>
+              <button id="delivery2" class="cost-btn mt-4 hover-system rounded-3">friday,Aug 21 Delivery charge $20</button>
+              <table class="table mt-4 w-50">
+                <tbody>
+                  <tr> 
+                    <td> <h4>Best Price</h4></td>
+                    <td><h4>$<span id="best-price">1299</span> </h4></td>
+                  </tr>
+                  <tr>                 
+                    <td> <h4>Extra memory cost</h4></td>
+                    <td>  <h4>$<span id="memory-value">0</span> </h4></td>
+                  </tr>
+                  <tr>
+                      <td> 
+                        <h4>Extra storage cost</h4></td>
+                        <td> <h4>$<span id="storage-value">0</span> </h4></td>
+                  </tr>
+                  <tr class="border-bottom-0">
+                      <td>    <h4>Delivery charge</h4></td>
+                      <td> <h4>$<span id="delivery-value">0</span> </h4></td>
+                  </tr>
+              <tr>
+                  <td>
+                    <h4>Total Price</h4></td>
+                    <td>  <h4>$<span id="total">1299</span> </h4></td>
+              </tr>
+                </tbody>
+                </table>      
+              <h5>Add promo code</h5>
+              <input id="cupon" class="cuponHover rounded-3" type="text">
+              <button id="cupon-code" class="apply-btn bg-danger text-white border-light rounded-3 p-1 cuponHover">Apply</button>
+           </div>
+        </div>
+        <div class="text-center">
+            <hr>
+            <h1>Total:$<span id="final-amount">1299</span> </h1>
+        </div>
+    </section>
+<script src="index.js"></script>
+</body>
+</html>
